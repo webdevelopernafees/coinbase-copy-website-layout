@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <style>
+        body{
+            background-color:blue ;
+            color: white;
+        }
+        .header-div{
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            top: 200px;
+            height: 300px;
+
+        }
+        .left-link-box{
+        }
+        .left-link-box>ul{
+            display: flex;
+            list-style: none;
+            gap: 40px;
+            
+        }
+        .left-link-box>ul>li>a{
+            text-decoration: none;
+            color: white;
+            font-family: CoinbaseSans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        }
+        .left-link-box>ul>li>a>span{
+            background-color: rgb(3, 192, 3);
+            padding: 10px;
+            margin-left: 10px;
+            border-radius: 5px;
+        }
+        .right-search-box>h3>span>button{
+            background-color: blue;
+            border: 1px solid white;
+            color: white;
+            padding: 5px;
+            margin-left: 5px;
+        }
+        .middle-article{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .middle-article>.first-box{
+            width: 800px;   
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+        }
+        .middle-article .first-box>h1{
+            text-align: center;
+        }
+        .middle-article>.first-box>p{
+            font-size: 10px;
+            font-weight:lighter;
+        }
+        .middle-article .first-box>h1>p{
+            text-align: center;
+        }
+        #input-box{
+            padding: 15px;
+            text-align: left;
+        }
+        button{
+            padding: 15px;
+            margin-left: 5px;
+            background-color: rgb(17, 241, 17);
+            text-align: center;
+            color: white;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="header-div">
+        <div class="left-link-box">
+            <ul>
+                <li><a href="#"><strong>Coinbase</strong></a></li>
+                <li><a href="#">Prices</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Earn crypto <span>Upto $158</span></a></li>
+            </ul>
+        </div>
+        <div class="right-search-box">
+            <h3>sign in  <span><button>Get started</button></span></h3>
+           
+        </div>
+    </div>
+    <div class="middle-article">
+        <div class="first-box">
+            <h1>Buy and sell cryptocurrency</h1>
+            <p>Coinbase is the easiest place to buy, sel, and manage your cryptocurrency portfolio</p>
+            <input type="text" name="" id="input-box" placeholder="Email address"><button>Get started</button>
+        </div>
+    </div>
+</body>
+</html>
